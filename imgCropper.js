@@ -1,7 +1,3 @@
-$(document).ready(function () {
-    changeImages();
-});
-
 function changeImages_pureJS() {
     for (i = 0; i < document.images.length; i++) {
         var img = document.images[i];
